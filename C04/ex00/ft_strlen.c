@@ -1,14 +1,13 @@
-#include <stdio.h>
-
 int ft_strlen(char *str)
 {
     int i;
+
+    i = 0;
     while (*str)
     {
-        *str++;
+        str++;
         i++;
     }
-    printf("%d\n", i);    
     return (i);
 }
 /*
