@@ -16,7 +16,7 @@ int ft_iterative_factorial(int nb)
     printf("%d\n", x);
     return (x);
 }
-
+/*
 int main(void)
 {
     int nb;
@@ -24,3 +24,4 @@ int main(void)
     nb = 7;
     ft_iterative_factorial(nb);
 }
+*/
